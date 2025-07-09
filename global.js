@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const navbarHTML = `
     <nav class="navbar navbar-expand-lg py-3">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="./index.html">
           <img src="./img/logos/logo.svg" alt="logo" class="img-fluid">
         </a>
         <button class="navbar-toggler mobile-nav-toggle" type="button" aria-label="Toggle navigation">
@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link ${isActiveLink('/') ? 'active' : ''}" ${isActiveLink('/') ? 'aria-current="page"' : ''} href="/">Home</a>
+              <a class="nav-link ${isActiveLink('./index.html') ? 'active' : ''}" ${isActiveLink('./index.html') ? 'aria-current="page"' : ''} href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ${isActiveLink('/pricing.html') ? 'active' : ''}" ${isActiveLink('/pricing.html') ? 'aria-current="page"' : ''} href="/pricing.html">Pricing</a>
+              <a class="nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" ${isActiveLink('./pricing.html') ? 'aria-current="page"' : ''} href="./pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ${isActiveLink('/contact-us.html') ? 'active' : ''}" ${isActiveLink('/contact-us.html') ? 'aria-current="page"' : ''} href="/contact-us.html">Contact us</a>
