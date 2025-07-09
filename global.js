@@ -69,13 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="mobile-side-nav-content">
         <ul class="mobile-nav-menu">
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('/') ? 'active' : ''}" href="/">Home</a>
+            <a class="mobile-nav-link ${isActiveLink('/html') ? 'active' : ''}" href="/">Home</a>
           </li>
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('/pricing.html') ? 'active' : ''}" href="/pricing.html">Pricing</a>
+            <a class="mobile-nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" href="/pricing.html">Pricing</a>
           </li>
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('/contact-us.html') ? 'active' : ''}" href="/contact-us.html">Contact us</a>
+            <a class="mobile-nav-link ${isActiveLink('./contact-us.html') ? 'active' : ''}" href="/contact-us.html">Contact us</a>
           </li>
         </ul>
         <div class="mobile-nav-social">
@@ -99,20 +99,20 @@ document.addEventListener('DOMContentLoaded', function() {
    <section class="footer-bg" style="padding: 56px 0;">
         <footer class="container">
             <div class="d-flex flex-wrap justify-content-between align-items-center mb-5">
-               <a href="/index.html"><img src="./img/logos/logo-white.svg" alt="logo" class="img-fluid"></a>
+               <a href="./index.html"><img src="./img/logos/logo-white.svg" alt="logo" class="img-fluid"></a>
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a href="/pricing.html" class="nav-link px-2">Pricing</a></li>
-                    <li class="nav-item"><a href="/faqs.html" class="nav-link px-2">FAQs</a></li>
-                    <li class="nav-item"><a href="/privacy-policy.html" class="nav-link px-2">Privacy Policy</a></li>
-                    <li class="nav-item"><a href="/terms-and-conditions.html" class="nav-link px-2">Terms & Conditions</a></li>
-                    <li class="nav-item"><a href="/data-security.html" class="nav-link px-2">Data Security</a></li>
+                    <li class="nav-item"><a href="./pricing.html" class="nav-link px-2">Pricing</a></li>
+                    <li class="nav-item"><a href="./faqs.html" class="nav-link px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="./privacy-policy.html" class="nav-link px-2">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="./terms-and-conditions.html" class="nav-link px-2">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="./data-security.html" class="nav-link px-2">Data Security</a></li>
                 </ul>
             </div>
             <hr style="border-color: var(--quinary-color) !important; opacity: 0.1;">
             <div class="d-flex flex-wrap justify-content-between align-items-center mt-4">
                 <span style="color: var(--quinary-color) !important; font-size: 14px;">© 2024 Dolze. All rights
                     reserved</span>
-                <ul class="nav justify-content-center">
+                <ul class="nav justify-content-center"> 
                     <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=61574564957945" class="nav-link px-2" target="_blank"><img src="./img/Socials/facebook-white.svg"
                                 alt=""></a></li>
                     <li class="nav-item"><a href="https://www.instagram.com/dolze.ai/" class="nav-link px-2" target="_blank"><img src="./img/Socials/instagram-white.svg"
