@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
               <a class="nav-link ${isActiveLink('./index.html') ? 'active' : ''}" ${isActiveLink('./index.html') ? 'aria-current="page"' : ''} href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" ${isActiveLink('./pricing.html') ? 'aria-current="page"' : ''} href="./pricing.html">Pricing</a>
+              <a class="nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" ${isActiveLink('./pricing.html') ? 'aria-current="page"' : ''} href="./pricing.html">Pricing</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link ${isActiveLink('/contact-us.html') ? 'active' : ''}" ${isActiveLink('/contact-us.html') ? 'aria-current="page"' : ''} href="/contact-us.html">Contact us</a>
+              <a class="nav-link ${isActiveLink('/contact-us.html') ? 'active' : ''}" ${isActiveLink('./contact-us.html') ? 'aria-current="page"' : ''} href="./contact-us.html">Contact us</a>
             </li>
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0">
@@ -69,13 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="mobile-side-nav-content">
         <ul class="mobile-nav-menu">
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('/html') ? 'active' : ''}" href="/">Home</a>
+            <a class="mobile-nav-link ${isActiveLink('./index.html') ? 'active' : ''}" href="./index.html">Home</a>
           </li>
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" href="/pricing.html">Pricing</a>
+            <a class="mobile-nav-link ${isActiveLink('./pricing.html') ? 'active' : ''}" href="./pricing.html">Pricing</a>
           </li>
           <li class="mobile-nav-item">
-            <a class="mobile-nav-link ${isActiveLink('./contact-us.html') ? 'active' : ''}" href="/contact-us.html">Contact us</a>
+            <a class="mobile-nav-link ${isActiveLink('./contact-us.html') ? 'active' : ''}" href="./contact-us.html">Contact us</a>
           </li>
         </ul>
         <div class="mobile-nav-social">
