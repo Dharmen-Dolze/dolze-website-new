@@ -530,9 +530,6 @@ body {
     color: var(--primary-color);
   }
 
-  .mobile-nav-cta {
-    margin-top: auto;
-  }
 
   .mobile-nav-overlay {
     position: fixed;
