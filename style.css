@@ -530,7 +530,6 @@ body {
     color: var(--primary-color);
   }
 
-
   .mobile-nav-overlay {
     position: fixed;
     top: 0;
@@ -982,7 +981,7 @@ body {
   text-align: center;
 }
 .savings-calc-right .btn-primary {
-  width: 280px;
+  width: 100%;
   margin-top: 32px;
   border-radius: 12px;
   font-size: 1.1rem;
